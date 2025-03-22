@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 80px;
+  padding: 0 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.lema {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-crear-cuenta,
+.btn-iniciar-sesion {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-crear-cuenta {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.btn-iniciar-sesion {
+  background-color: #0071c2;
+  color: white;
+}
+
+.btn-crear-cuenta:hover {
+  background-color: #e0e0e0;
+}
+
+.btn-iniciar-sesion:hover {
+  background-color: #005fa3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .header {
+    padding: 0 10px;
+  }
+
+  .lema {
+    display: none;
+  }
+
+  .btn-crear-cuenta,
+  .btn-iniciar-sesion {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
