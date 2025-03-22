@@ -14,22 +14,4 @@ body {
   min-height: 100vh;
 }
 
-.content {
-  margin-top: 100px; /* Espacio para el header fijo */
-  padding: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-h1 {
-  color: #0071c2;
-  margin-bottom: 20px;
-}
-
-p {
-  color: #333;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
+/* Los estilos de contenido se han movido al componente Main */
